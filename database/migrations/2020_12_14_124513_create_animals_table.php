@@ -22,7 +22,7 @@ class CreateAnimalsTable extends Migration
             $table->string("species", 30);
             $table->integer("likes");
             $table->integer("dislikes");
-            $table->string("image-url", 100);
+            $table->string("image_url", 100);
         });
     }
 
