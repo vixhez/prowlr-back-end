@@ -15,4 +15,20 @@ class Animal extends Model
     {
         return ($this->likes - $this->dislikes) / (($this->likes + $this->dislikes) / 2) * 100;
     }
+
+    public function leaderBoard()
+    {
+        
+    }
+
+    public function incrementLikes()
+    {
+       
+    }
+
+    public function incrementDislikes()
+    {
+       
+    }
+
 }

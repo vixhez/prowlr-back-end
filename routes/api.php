@@ -20,4 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
+
 Route::get("/animals", [Animals::class, "index"]);
+
+Route::put('/animals/{animal}', [Animals::class, "update"]);

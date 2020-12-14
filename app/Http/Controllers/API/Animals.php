@@ -5,6 +5,7 @@ use App\Models\Animal;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Resources\AnimalResource;
+use App\Http\Requests\API\AnimalRequest;
 
 class Animals extends Controller
 {
@@ -15,7 +16,7 @@ class Animals extends Controller
      */
     public function index()
     {
-        return AnimalResource::collect(Animal::all());
+        return AnimalResource::collection(Animal::all());
     }
 
     /**
@@ -24,7 +25,7 @@ class Animals extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(AnimalRequest $request)
     {
         //
     }
@@ -47,9 +48,11 @@ class Animals extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(AnimalRequest $request, Animal $animal)
     {
-        //
+        $data = $request->all();
+        $animal->update($data);
+        return new AnimalResource($animal);
     }
 
     /**
