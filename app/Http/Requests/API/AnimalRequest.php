@@ -24,9 +24,7 @@ class AnimalRequest extends FormRequest
     public function rules()
     {
         return [
-            'likes' => ['required'],
-            'dislikes' => ['required'],
-            
+            'liked' => ['required', 'bool'], 
         ];
     }
 }

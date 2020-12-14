@@ -50,9 +50,15 @@ class Animals extends Controller
      */
     public function update(AnimalRequest $request, Animal $animal)
     {
-        $data = $request->all();
-        $animal->update($data);
-        return new AnimalResource($animal);
+        if($request->liked){
+            $animal->likes += 1;
+        }
+        else{
+            $animal->dislikes += 1;
+        };
+        $animal->save();
+        
+        return response(null, 204);
     }
 
     /**

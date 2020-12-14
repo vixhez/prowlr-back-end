@@ -13,7 +13,10 @@ class Animal extends Model
 
     public function percentageLikes()
     {
-        return ($this->likes - $this->dislikes) / (($this->likes + $this->dislikes) / 2) * 100;
+        $sum = ($this->likes + $this->dislikes);
+        $like_percent = round($this->likes / $sum * 100);
+        $dislike_percent = round($this->dislikes / $sum * 100);
+        return $like_percent - $dislike_percent; 
     }
 
     public function leaderBoard()
@@ -21,14 +24,5 @@ class Animal extends Model
         
     }
 
-    public function incrementLikes()
-    {
-       
-    }
-
-    public function incrementDislikes()
-    {
-       
-    }
 
 }
