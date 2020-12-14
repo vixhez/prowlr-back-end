@@ -4,6 +4,7 @@ namespace App\Http\Controllers\API;
 use App\Models\Animal;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Http\Resources\AnimalResource;
 
 class Animals extends Controller
 {
@@ -14,7 +15,7 @@ class Animals extends Controller
      */
     public function index()
     {
-        return Animal::all();
+        return AnimalResource::collect(Animal::all());
     }
 
     /**
