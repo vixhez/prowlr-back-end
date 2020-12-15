@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\Animal;
+use Illuminate\Support\Facades\DB;
 
 class AnimalSeeder extends Seeder
 {
@@ -14,7 +15,7 @@ class AnimalSeeder extends Seeder
      */
     public function run()
     {
-        Laravel::table('animals')->insert([
+        DB::table('animals')->insert([
             ['name' => 'Fluffy', 
             'age'=> 6, 
             'bio'=> 'Fan of walks and bones', 
