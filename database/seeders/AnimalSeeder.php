@@ -13,7 +13,8 @@ class AnimalSeeder extends Seeder
      */
     public function run()
     {
-        Animal::create([
+
+        DB::table('animals')->insert([
             'name' => 'Fluffy', 
             'age'=> 6, 
             'bio'=> 'Fan of walks and bones', 
@@ -22,7 +23,7 @@ class AnimalSeeder extends Seeder
             'dislikes' => 0, 
             'image_url' => 'an-image'
         ]);
-        Animal::create([
+        DB::table('animals')->insert([
             'name' => 'Bob', 
             'age'=> 9, 
             'bio'=> ' like hiding in boxes', 
@@ -32,7 +33,7 @@ class AnimalSeeder extends Seeder
             'image_url' => 'an-image',
             
         ]);
-        Animal::create([
+        DB::table('animals')->insert([
             'name' => 'Wilma', 
             'age'=> 12, 
             'bio'=> 'Love carpentry', 
@@ -41,7 +42,7 @@ class AnimalSeeder extends Seeder
             'dislikes' => 0, 
             'image_url' => 'an-image',
             
-        ]);
+        ])
   
     }
 }
