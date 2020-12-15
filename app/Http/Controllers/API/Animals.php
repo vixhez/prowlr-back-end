@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Resources\AnimalResource;
 use App\Http\Requests\API\AnimalRequest;
+use App\Http\Resources\AnimalRankingResource;
 
 class Animals extends Controller
 {
@@ -17,6 +18,16 @@ class Animals extends Controller
     public function index()
     {
         return AnimalResource::collection(Animal::all());
+    }
+
+        /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function ranking()
+    {   
+        return AnimalRankingResource::collection(Animal::all());
     }
 
     /**
@@ -57,7 +68,7 @@ class Animals extends Controller
             $animal->dislikes += 1;
         };
         $animal->save();
-        
+
         return response(null, 204);
     }
 
