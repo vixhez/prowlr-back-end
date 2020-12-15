@@ -14,7 +14,7 @@ class AnimalSeeder extends Seeder
      */
     public function run()
     {
-        Animal::table('animals')->insert([
+        Animal::create([
             ['name' => 'Fluffy', 
             'age'=> 6, 
             'bio'=> 'Fan of walks and bones', 
