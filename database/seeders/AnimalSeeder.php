@@ -13,36 +13,32 @@ class AnimalSeeder extends Seeder
      */
     public function run()
     {
-
         DB::table('animals')->insert([
-            'name' => 'Fluffy', 
+            ['name' => 'Fluffy', 
             'age'=> 6, 
             'bio'=> 'Fan of walks and bones', 
             'species' => 'Dog', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'an-image'
-        ]);
-        DB::table('animals')->insert([
-            'name' => 'Bob', 
+            'image_url' => 'an-image'],
+
+            ['name' => 'Bob', 
             'age'=> 9, 
             'bio'=> ' like hiding in boxes', 
             'species' => 'Cat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'an-image',
-            
-        ]);
-        DB::table('animals')->insert([
-            'name' => 'Wilma', 
+            'image_url' => 'an-image'],
+
+            [ 'name' => 'Wilma', 
             'age'=> 12, 
             'bio'=> 'Love carpentry', 
             'species' => 'Woodpecker', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'an-image',
-            
-        ])
+            'image_url' => 'an-image']
+
+        ]);
   
     }
 }
