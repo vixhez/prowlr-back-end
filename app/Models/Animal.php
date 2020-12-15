@@ -11,21 +11,4 @@ class Animal extends Model
 
     use HasFactory;
 
-    public function ratioOfLikes()
-    {
-        $sum = ($this->likes + $this->dislikes);
-        $like_percent = round($this->likes / $sum * 100);
-
-        // $dislike_percent = round($this->dislikes / $sum * 100);
-        // $percentageOfLikes = $like_percent - $dislike_percent; 
-
-        return $like_percent;
-    }
-
-    public function leaderBoard()
-    {
-        
-    }
-
-
 }
