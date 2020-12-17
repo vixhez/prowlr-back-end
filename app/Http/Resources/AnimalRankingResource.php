@@ -17,6 +17,8 @@ class AnimalRankingResource extends JsonResource
         return [
             "id" => $this->id,
             "name" => $this->name,
+            "age" => $this->age,
+            "bio" => $this->bio,
             "species" => $this->species,
             "image_url" => $this->image_url,
             "percentageOfLikes" => round($this->likes /(($this->likes + $this->dislikes) ?: 1) * 100),
