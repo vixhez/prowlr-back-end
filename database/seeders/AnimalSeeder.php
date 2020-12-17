@@ -104,7 +104,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Elephant', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/rhino.jpg']
+            'image_url' => '/assets/rhino.jpg'],
 
             ['id' => 11,
             'name' => 'Sid', 
