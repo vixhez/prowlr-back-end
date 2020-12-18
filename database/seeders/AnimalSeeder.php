@@ -158,8 +158,44 @@ class AnimalSeeder extends Seeder
             'species' => 'Wombat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/wombat.jpg']
+            'image_url' => '/assets/wombat.jpg'],
 
+            ['id' => 17,
+            'name' => 'Tony',
+            'age'=> 6,
+            'bio'=> 'I like long rides in the country, if you know what I mean. Hit me up!',
+            'species' => 'Horse',
+            'likes' => 0,
+            'dislikes' => 0,
+            'image_url' => '/assets/image.png'],
+
+            ['id' => 18,
+            'name' => 'Stan',
+            'age'=> 10,
+            'bio'=> 'DM me if you like a cheeky monkey, not looking for anything serious just here for some fun.',
+            'species' => 'Monkey',
+            'likes' => 0,
+            'dislikes' => 0,
+            'image_url' => '/assets/Monkey.jpg'],
+
+            ['id' => 19,
+            'name'=> 'Barry',
+            'age'=> 7,
+            'bio'=> 'I’m a foodie, big into my treats. You might want to call the paw-lice as I could steal your heart.',
+            'species' => 'Dog',
+            'likes' => 0,
+            'dislikes' => 0,
+            'image_url' => '/assets/Barry.png'],
+
+            ['id' => 20,
+            'name'=> 'Luke',
+            'age'=> 4,
+            'bio'=> 'I always think that anything is Paw-sible. Here for fun, if you are too serious then you are barking up the wrong tree.',
+            'species' => 'Dog',
+            'likes' => 0,
+            'dislikes' => 0,
+            'image_url' => '/assets/Luke.png']
+           
         ]);
   
     }
