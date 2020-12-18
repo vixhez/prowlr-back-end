@@ -173,7 +173,7 @@ class AnimalSeeder extends Seeder
             'name' => 'Stan',
             'age'=> 10,
             'bio'=> 'DM me if you like a cheeky monkey, not looking for anything serious just here for some fun.',
-            'species' => ‘Monkey’,
+            'species' => 'Monkey',
             'likes' => 0,
             'dislikes' => 0,
             'image_url' => '/assets/Monkey.jpg'],
@@ -194,10 +194,8 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog',
             'likes' => 0,
             'dislikes' => 0,
-            'image_url' => '/assets/Luke.png'],
+            'image_url' => '/assets/Luke.png']
            
-           Message team-turing
-
         ]);
   
     }
