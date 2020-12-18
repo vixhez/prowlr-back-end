@@ -23,7 +23,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Sloth', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/sloth.jpg'],
+            'image_url' => '/assets/sloth.jpg'],
 
             ['id' => 2,
             'name' => 'Cassidy', 
@@ -32,7 +32,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Cat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/cat-cowboy.jpg'],
+            'image_url' => '/assets/cat-cowboy.jpg'],
 
             ['id' => 3,
             'name' => 'Roo', 
@@ -41,7 +41,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Kangaroo', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/roo-posing.jpg'],
+            'image_url' => '/assets/roo-posing.jpg'],
 
             ['id' => 4,
             'name' => 'Robin', 
@@ -50,7 +50,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/dog-robinhood.jpg'],
+            'image_url' => '/assets/dog-robinhood.jpg'],
 
             ['id' => 5,
             'name' => 'Purrito', 
@@ -59,7 +59,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Cat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/cat-selfie.jpg'],
+            'image_url' => '/assets/cat-selfie.jpg'],
 
             ['id' => 6,
             'name' => 'Shanti', 
@@ -68,7 +68,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Cat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/yoga-dog.jpg'],
+            'image_url' => '/assets/yoga-dog.jpg'],
 
             ['id' => 7,
             'name' => 'SmoothBad', 
@@ -77,7 +77,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/rhino.jpg'],
+            'image_url' => '/assets/rhino.jpg'],
 
             ['id' => 8,
             'name' => 'Pauline', 
@@ -86,7 +86,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Porpoise', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/rhino.jpg'],
+            'image_url' => '/assets/rhino.jpg'],
 
             ['id' => 9,
             'name' => 'Seb', 
@@ -95,7 +95,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Gorilla', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/rhino.jpg'],
+            'image_url' => '/assets/rhino.jpg'],
 
             ['id' => 10,
             'name' => 'Ellie', 
@@ -104,7 +104,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Elephant', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/rhino.jpg'],
+            'image_url' => '/assets/rhino.jpg'],
 
             ['id' => 11,
             'name' => 'Sid', 
@@ -113,7 +113,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Sloth', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/sloth.jpg'],
+            'image_url' => '/assets/sloth.jpg'],
 
             ['id' => 12,
             'name' => 'Cassidy', 
@@ -122,7 +122,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Cat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/cat-cowboy.jpg'],
+            'image_url' => '/assets/cat-cowboy.jpg'],
 
             ['id' => 13,
             'name' => 'Roo', 
@@ -131,7 +131,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Kangaroo', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/roo-posing.jpg'],
+            'image_url' => '/assets/roo-posing.jpg'],
 
             ['id' => 14,
             'name' => 'Robin', 
@@ -140,7 +140,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/dog-robinhood.jpg'],
+            'image_url' => '/assets/dog-robinhood.jpg'],
 
             ['id' => 15,
             'name' => 'Purrito', 
@@ -149,7 +149,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Cat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/cat-selfie.jpg'],
+            'image_url' => '/assets/cat-selfie.jpg'],
 
             ['id' => 16,
             'name' => 'Shanti', 
@@ -158,7 +158,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Cat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/yoga-dog.jpg'],
+            'image_url' => '/assets/yoga-dog.jpg'],
 
             ['id' => 17,
             'name' => 'SmoothBad', 
@@ -167,7 +167,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/rhino.jpg'],
+            'image_url' => '/assets/rhino.jpg'],
 
             ['id' => 18,
             'name' => 'Pauline', 
@@ -176,7 +176,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Porpoise', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/rhino.jpg'],
+            'image_url' => '/assets/rhino.jpg'],
 
             ['id' => 19,
             'name' => 'Seb', 
@@ -185,7 +185,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Gorilla', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/rhino.jpg'],
+            'image_url' => '/assets/rhino.jpg'],
 
             ['id' => 20,
             'name' => 'Ellie', 
@@ -194,7 +194,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Elephant', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => 'assets/rhino.jpg']
+            'image_url' => '/assets/rhino.jpg']
 
         ]);
   
