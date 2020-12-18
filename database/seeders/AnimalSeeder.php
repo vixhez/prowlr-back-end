@@ -104,7 +104,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Giraffe', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/giraffe.jpeg'],
+            'image_url' => '/assets/giraffe.jpg'],
 
             ['id' => 11,
             'name' => 'Herbert', 
@@ -158,7 +158,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Horse',
             'likes' => 0,
             'dislikes' => 0,
-            'image_url' => '/assets/image.png'],
+            'image_url' => '/assets/image.jpg'],
 
             ['id' => 17,
             'name' => 'Stan',
@@ -176,7 +176,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog',
             'likes' => 0,
             'dislikes' => 0,
-            'image_url' => '/assets/Barry.png'],
+            'image_url' => '/assets/Barry.jpg'],
 
             ['id' => 19,
             'name'=> 'Luke',
@@ -185,7 +185,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog',
             'likes' => 0,
             'dislikes' => 0,
-            'image_url' => '/assets/Luke.png']
+            'image_url' => '/assets/Luke.jpg']
            
         ]);
   
