@@ -23,7 +23,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Sloth', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/sloth.jpg'],
+            'image_url' => 'assets/sloth.jpg'],
 
             ['id' => 2,
             'name' => 'Cassidy', 
@@ -32,7 +32,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Cat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/cat-cowboy.jpg'],
+            'image_url' => 'assets/cat-cowboy.jpg'],
 
             ['id' => 3,
             'name' => 'Roo', 
@@ -41,7 +41,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Kangaroo', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/roo-posing.jpg'],
+            'image_url' => 'assets/roo-posing.jpg'],
 
             ['id' => 4,
             'name' => 'Robin', 
@@ -50,7 +50,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/dog-robinhood.jpg'],
+            'image_url' => 'assets/dog-robinhood.jpg'],
 
             ['id' => 5,
             'name' => 'Purrito', 
@@ -59,7 +59,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Cat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/cat-selfie.jpg'],
+            'image_url' => 'assets/cat-selfie.jpg'],
 
             ['id' => 6,
             'name' => 'Shanti', 
@@ -68,7 +68,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/yoga-dog.jpg'],
+            'image_url' => 'assets/yoga-dog.jpg'],
 
             ['id' => 7,
             'name' => 'Wilma', 
@@ -77,7 +77,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Goose', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/goose.jpg'],
+            'image_url' => 'assets/goose.jpg'],
 
             ['id' => 8,
             'name' => 'Sergio', 
@@ -86,7 +86,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Brown bear', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/bear.jpg'],
+            'image_url' => 'assets/bear.jpg'],
 
             ['id' => 9,
             'name' => 'Fizz', 
@@ -95,7 +95,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Mouse', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/mouse.jpg'],
+            'image_url' => 'assets/mouse.jpg'],
 
             ['id' => 10,
             'name' => 'Gerald', 
@@ -104,7 +104,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Giraffe', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/giraffe.jpg'],
+            'image_url' => 'assets/giraffe.jpg'],
 
             ['id' => 11,
             'name' => 'Herbert', 
@@ -113,7 +113,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Hamster', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/hammster.jpg'],
+            'image_url' => 'assets/hammster.jpg'],
 
             ['id' => 12,
             'name' => 'Ronnie', 
@@ -122,7 +122,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Rhino', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/rhino.jpg'],
+            'image_url' => 'assets/rhino.jpg'],
 
             ['id' => 13,
             'name' => 'Yvonne', 
@@ -131,7 +131,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Sheep', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/sheep.jpg'],
+            'image_url' => 'assets/sheep.jpg'],
 
             ['id' => 14,
             'name' => 'Beatriz', 
@@ -140,7 +140,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Llama', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/sunglassesLlama.jpg'],
+            'image_url' => 'assets/sunglassesLlama.jpg'],
 
             ['id' => 15,
             'name' => 'Wilma', 
@@ -149,7 +149,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Wombat', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/wombat.jpg'],
+            'image_url' => 'assets/wombat.jpg'],
 
             ['id' => 16,
             'name' => 'Tony',
@@ -158,7 +158,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Horse',
             'likes' => 0,
             'dislikes' => 0,
-            'image_url' => '/assets/image.jpg'],
+            'image_url' => 'assets/image.jpg'],
 
             ['id' => 17,
             'name' => 'Stan',
@@ -167,7 +167,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Monkey',
             'likes' => 0,
             'dislikes' => 0,
-            'image_url' => '/assets/Monkey.jpg'],
+            'image_url' => 'assets/Monkey.jpg'],
 
             ['id' => 18,
             'name'=> 'Barry',
@@ -176,7 +176,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog',
             'likes' => 0,
             'dislikes' => 0,
-            'image_url' => '/assets/Barry.jpg'],
+            'image_url' => 'assets/Barry.jpg'],
 
             ['id' => 19,
             'name'=> 'Luke',
@@ -185,7 +185,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Dog',
             'likes' => 0,
             'dislikes' => 0,
-            'image_url' => '/assets/Luke.jpg']
+            'image_url' => 'assets/Luke.jpg']
            
         ]);
   
