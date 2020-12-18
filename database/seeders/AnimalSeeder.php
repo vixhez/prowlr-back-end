@@ -107,15 +107,6 @@ class AnimalSeeder extends Seeder
             'image_url' => '/assets/giraffe.jpg'],
 
             ['id' => 11,
-            'name' => 'Bob', 
-            'age'=> 18, 
-            'bio'=> 'Here for the lolz.', 
-            'species' => 'Llama', 
-            'likes' => 0, 
-            'dislikes' => 0, 
-            'image_url' => '/assets/hairyllama.jpg'],
-
-            ['id' => 12,
             'name' => 'Herbert', 
             'age'=> 4, 
             'bio'=> 'I sometimes feel like I\'m just spinning in a wheel.', 
@@ -124,7 +115,7 @@ class AnimalSeeder extends Seeder
             'dislikes' => 0, 
             'image_url' => '/assets/hammster.jpg'],
 
-            ['id' => 13,
+            ['id' => 12,
             'name' => 'Ronnie', 
             'age'=> 25, 
             'bio'=> 'All about the spa and ice cream sundaes. Former Olympic long-jumper.', 
@@ -133,7 +124,7 @@ class AnimalSeeder extends Seeder
             'dislikes' => 0, 
             'image_url' => '/assets/rhino.jpg'],
 
-            ['id' => 14,
+            ['id' => 13,
             'name' => 'Yvonne', 
             'age'=> 33, 
             'bio'=> 'You\'ll find me knitting, or with my nose in a good book.', 
@@ -142,7 +133,7 @@ class AnimalSeeder extends Seeder
             'dislikes' => 0, 
             'image_url' => '/assets/sheep.jpg'],
 
-            ['id' => 15,
+            ['id' => 14,
             'name' => 'Beatriz', 
             'age'=> 17, 
             'bio'=> 'Race car driver, looking for someone to spend life in the fast lane with.', 
@@ -151,7 +142,7 @@ class AnimalSeeder extends Seeder
             'dislikes' => 0, 
             'image_url' => '/assets/sunglassesLlama.jpg'],
 
-            ['id' => 16,
+            ['id' => 15,
             'name' => 'Wilma', 
             'age'=> 17, 
             'bio'=> 'Abstract fingerpainting is my thing, am really shy.', 
@@ -160,7 +151,7 @@ class AnimalSeeder extends Seeder
             'dislikes' => 0, 
             'image_url' => '/assets/wombat.jpg'],
 
-            ['id' => 17,
+            ['id' => 16,
             'name' => 'Tony',
             'age'=> 6,
             'bio'=> 'I like long rides in the country, if you know what I mean. Hit me up!',
@@ -169,7 +160,7 @@ class AnimalSeeder extends Seeder
             'dislikes' => 0,
             'image_url' => '/assets/image.png'],
 
-            ['id' => 18,
+            ['id' => 17,
             'name' => 'Stan',
             'age'=> 10,
             'bio'=> 'DM me if you like a cheeky monkey, not looking for anything serious just here for some fun.',
@@ -178,7 +169,7 @@ class AnimalSeeder extends Seeder
             'dislikes' => 0,
             'image_url' => '/assets/Monkey.jpg'],
 
-            ['id' => 19,
+            ['id' => 18,
             'name'=> 'Barry',
             'age'=> 7,
             'bio'=> 'I’m a foodie, big into my treats. You might want to call the paw-lice as I could steal your heart.',
@@ -187,7 +178,7 @@ class AnimalSeeder extends Seeder
             'dislikes' => 0,
             'image_url' => '/assets/Barry.png'],
 
-            ['id' => 20,
+            ['id' => 19,
             'name'=> 'Luke',
             'age'=> 4,
             'bio'=> 'I always think that anything is Paw-sible. Here for fun, if you are too serious then you are barking up the wrong tree.',
