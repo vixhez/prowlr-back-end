@@ -104,7 +104,7 @@ class AnimalSeeder extends Seeder
             'species' => 'Giraffe', 
             'likes' => 0, 
             'dislikes' => 0, 
-            'image_url' => '/assets/giraffe.jpg'],
+            'image_url' => '/assets/giraffe.jpeg'],
 
             ['id' => 11,
             'name' => 'Herbert', 
